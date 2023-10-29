@@ -1,0 +1,97 @@
+.job-card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* .empl-home{
+  padding-top: 20px;
+} */
+.add-job-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.employer-btn {
+  width: calc(100% - 40px);
+  background-color: #6e46f5;
+  border: none;
+  color: #fff;
+  height: 48px;
+  margin-top: 32px;
+}
+.content-loader-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+
+.navigate-bubble-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.company-container-on-web {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-column {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    margin-left: 50px;
+  }
+
+  .add-job-btn-container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .navigate-bubble-row {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .employer-btn {
+   width: 70%;
+   background-color: #6e46f5;
+   border: none;
+   border-radius: 10px;
+   color: #fff;
+   height: 48px;
+   margin-top: 32px;
+ }
+
+}
+
+@media (min-width: 1200px){
+  .job-card-column {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: auto auto ; /* Define 4 rows */
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,133 @@
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 40px);
+  height: 180px;
+  margin-top: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.job-card-container:hover {
+  transform: scale(1.05);
+}
+.card-photo-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.post-card-photo {
+  width: 100%;
+  height: 100%;
+  /* height: 231px; */
+  background-size: cover;
+  background-position-y: 25%;
+  overflow: hidden;
+}
+
+.post-card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  justify-content: space-evenly;
+  height: 100%;
+  z-index: 10;
+}
+
+.job-card-likes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-info-bubble {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 8px;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  background: rgba(244, 244, 244, 0.3);
+  margin-top: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 800px) {
+  .job-card-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .post-card-photo {
+    width: 100%;
+    height: 100%;
+    /* height: 231px; */
+    background-size: cover;
+    background-position-y: 25%;
+    background-position-x: center;
+    overflow: hidden;
+  }
+
+  .post-card-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    height: 100%;
+    z-index: 10;
+  }
+  .post-info-bubble {
+    position: absolute;
+    bottom: 22px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the right position as needed */
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 2px;
+    height: auto; /* Allow the height to adjust to content */
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background: rgba(244, 244, 244, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 100px; /* Set the maximum width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for text overflow */
+    overflow: hidden; /* Hide overflowing text */
+  }
+
+  .job-card-likes {
+    position: absolute;
+    bottom: 22px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    flex-direction: row;
+    align-items: center;
+  }
+
+}
+
+
+@media (min-width: 1200px){
+  .job-card-container {
+    width: 200px;
+    height: 200px;
+  }
+}

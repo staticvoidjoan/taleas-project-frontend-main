@@ -1,0 +1,754 @@
+/* /* section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.user-register-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 130vh;
+  width: 100%;
+}
+
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.back-arrow{
+    color: white;
+}
+
+.form-box-register {
+  position: relative;
+  width: 650px;
+  height: 670px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox-register{
+  position: relative;
+  margin: 30px 0;
+  width: 510px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox-register label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+
+}
+
+.inputbox-register input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+.inputbox-register ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+.forget {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forget label input {
+  margin-right: 3px;
+}
+.forget label a {
+  color: #fff;
+  text-decoration: none;
+}
+.forget label a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.register {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.register p a:hover {
+  text-decoration: underline;
+}
+
+
+
+.logout-btn{
+  width: 100px;
+  margin-top: 5px;
+}
+
+
+*/
+.backToLogin {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+}
+.user-register-page {
+  width: 100%;
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column-reverse; */
+  overflow: hidden;
+  background-color: #212121;
+}
+
+.forms-users {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.form-box-register {
+  background-color: #fff;
+  width: 100%;
+  height: 550;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.form-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  flex: 1 1 1;
+}
+
+.form-value-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  flex: 1 1 1;
+  justify-content: center;
+}
+
+.inputbox-register {
+  width: calc(100% - 40px);
+  height: 48px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.inputbox-register-birthday {
+  width: calc(100% - 40px);
+  height: 48px;
+  flex-shrink: 0;
+  margin-bottom: 28px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.inputbox-register-box {
+  width: calc(100% - 40px);
+  height: 90px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.register-input {
+  margin: 0px;
+  padding: 0px;
+  width: calc(100% - 12px);
+  height: 100%;
+  border: none;
+}
+
+.register-input:focus {
+  outline: none;
+}
+
+.form-category {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 55px;
+  justify-content: space-evenly;
+  margin-top: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+  color: #999;
+}
+
+.employer-category.selected,
+.employee-category.selected {
+  border-bottom: 2px solid #6e46f5;
+  color: #6e46f5;
+  font-weight: bold;
+}
+
+.employer-category.selected .form-category,
+.employee-category.selected .form-category {
+  color: #6e46f5;
+}
+
+.employer-category,
+.employee-category {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-register-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.radio-terms {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.terms-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 12px;
+}
+.terms-button {
+  font-size: 0.9em;
+  color: aliceblue;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-btn {
+  width: calc(100% - 40px);
+  background-color: #6e46f5;
+  border: none;
+  color: #fff;
+  height: 48px;
+  margin-top: 32px;
+}
+
+.register-btn-2 {
+  width: calc(100% - 40px);
+  background-color: #6e46f5;
+  border: none;
+  color: #fff;
+  height: 48px;
+}
+
+.goto-login {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.forgot-password {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+/* Add this to your CSS */
+.disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.login-error {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+}
+
+.logout-btn {
+  color: #b6013c;
+  width: calc(100% - 40px);
+  background-color: transparent;
+  height: 48px;
+  border: 1px solid #b6013c;
+  transition: transform 0.3s ease;
+}
+
+/* CSS */
+.inputbox-register {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.register-input-label {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  pointer-events: none; /* Prevent label from interfering with input */
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+  font-size: 14px;
+  color: #999;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+/* Adjust the label position and style when the input is focused or has a value */
+.register-input:focus + .register-input-label,
+.register-input:valid + .register-input-label {
+  top: -5px;
+  left: 5px;
+  font-size: 12px;
+  color: #333;
+}
+
+#loginform1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 50vh;
+  flex: 1 1 1;
+}
+.register-form-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 901px) {
+  .user-register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .forms-users {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh; /* Adjust the height to your needs */
+    padding-bottom: 100px;
+    padding-top: 200px;
+  }
+  .form-box-register {
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 1 1 0;
+  }
+
+  .form-value,
+  .form-value-confirm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    flex: 1 1 1;
+  }
+
+  .register-photo-page {
+    max-width: 430px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px; /* Add some spacing between the photo and the form */
+  }
+}
+
+@media screen and (max-width: 497) {
+  .backToLogin {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+  }
+  .user-register-page {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    background-color: #212121;
+  }
+
+  .form-box-register {
+    background-color: #fff;
+    width: 100%;
+    height: 550;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+  }
+
+  .form-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    flex: 1 1 1;
+  }
+
+  .form-value-confirm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    flex: 1 1 1;
+    justify-content: center;
+  }
+
+  .inputbox-register {
+    width: calc(100% - 40px);
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .inputbox-register-birthday {
+    width: calc(100% - 40px);
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 28px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .inputbox-register-box {
+    width: calc(100% - 40px);
+    height: 90px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .register-input {
+    margin: 0px;
+    padding: 0px;
+    width: calc(100% - 12px);
+    height: 100%;
+    border: none;
+  }
+
+  .register-input:focus {
+    outline: none;
+  }
+
+  .form-category {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+    color: #999;
+  }
+
+  .employer-category.selected,
+  .employee-category.selected {
+    border-bottom: 2px solid #6e46f5;
+    color: #6e46f5;
+    font-weight: bold;
+  }
+
+  .employer-category.selected .form-category,
+  .employee-category.selected .form-category {
+    color: #6e46f5;
+  }
+
+  .employer-category,
+  .employee-category {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-register-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+
+  .radio-terms {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+  }
+
+  .terms-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 12px;
+  }
+  .terms-button {
+    font-size: 0.9em;
+    color: aliceblue;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .register-btn {
+    width: calc(100% - 40px);
+    background-color: #6e46f5;
+    border: none;
+    color: #fff;
+    height: 48px;
+    margin-top: 32px;
+  }
+
+  .register-btn-2 {
+    width: calc(100% - 40px);
+    background-color: #6e46f5;
+    border: none;
+    color: #fff;
+    height: 48px;
+  }
+
+  .goto-login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+
+  .forgot-password {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+  }
+
+  /* Add this to your CSS */
+  .disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+
+  .login-error {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 40px);
+  }
+
+  .logout-btn {
+    color: #b6013c;
+    width: calc(100% - 40px);
+    background-color: transparent;
+    height: 48px;
+    border: 1px solid #b6013c;
+    transition: transform 0.3s ease;
+  }
+
+  /* CSS */
+  .inputbox-register {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .register-input-label {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    pointer-events: none; /* Prevent label from interfering with input */
+    transition: top 0.2s, left 0.2s, font-size 0.2s;
+    font-size: 14px;
+    color: #999;
+  }
+
+  .register-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+
+  /* Adjust the label position and style when the input is focused or has a value */
+  .register-input:focus + .register-input-label,
+  .register-input:valid + .register-input-label {
+    top: -5px;
+    left: 5px;
+    font-size: 12px;
+    color: #333;
+  }
+
+  #loginform1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 50vh;
+    flex: 1 1 1;
+  }
+  .register-form-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

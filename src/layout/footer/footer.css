@@ -1,0 +1,30 @@
+
+.footer-component {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Set your desired background color */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  z-index: 999; /* Optional: Adjust the z-index as needed */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.home,
+.chat,
+.profile {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.home:hover,
+.chat:hover,
+.profile:hover {
+  background-color: #f2f2f2; /* Set a background color on hover */
+  border-radius: 50%; /* Optional: Add a border-radius for a circular effect */
+}

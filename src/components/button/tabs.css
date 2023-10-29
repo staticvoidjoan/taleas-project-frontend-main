@@ -1,0 +1,30 @@
+.AllButton{
+    background-color: #F4F4F4;
+    color: #222;
+    cursor: pointer;
+    border-radius: 24px;
+    border: 1px solid #DDD;
+    height: 32px;
+    flex-shrink: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 16px;
+
+}
+
+.AllButton.selected {
+    background-color: #222;
+    border: 0px;
+    color: #fff;
+    outline: none;
+}
+
+.AllButton:hover,
+.AllButton:focus,
+.AllButton:active {
+    background-color: #222;
+    border: 0px;
+    color: #fff;
+    outline: none;
+}

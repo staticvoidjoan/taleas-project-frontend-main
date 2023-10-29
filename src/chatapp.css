@@ -1,0 +1,18 @@
+.chatNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff; 
+  }
+ 
+  .chat-content {
+    padding-top: 60px; 
+    overflow-y: scroll;
+    height: calc(100vh - 60px); 
+    transition: all 0.3s ease;
+  }
+  .chat-content.keyboard-open {
+    transform: translateY(-50%); 
+}

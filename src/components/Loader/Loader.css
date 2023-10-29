@@ -1,0 +1,30 @@
+.loader-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.careercrush-logo{
+    width: 50%;
+}
+
+.loaderContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+@media (min-width:768px){
+    .careercrush-logo{
+        width: 20%;
+    }
+    .loader-container{
+        height: 100vh;
+    }
+}

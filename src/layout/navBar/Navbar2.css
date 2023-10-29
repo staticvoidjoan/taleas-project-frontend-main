@@ -1,0 +1,55 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.navbar {
+  z-index: 99999;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 20px 24px 20px;
+  /* border-bottom: 1px #dddddd solid; */
+}
+
+.lan-men {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.language-dropdown select {
+  border: none;
+  background-color: none;
+  background: none;
+}
+
+.app-name {
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  cursor: pointer;
+}

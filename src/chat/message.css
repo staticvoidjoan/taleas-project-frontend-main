@@ -1,0 +1,56 @@
+/* Message.css */
+.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    word-break: break-word; /* Enable text wrapping for long messages */
+    hyphens: manual;
+    margin: 3px;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  .sent {
+    background-color: #6e46f5;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    float: right;
+  }
+  
+  .received {
+    background-color: #ecf1f8;
+    color: black;
+    float: left;
+  }
+  
+.timestamp	{
+    font-size: 10px;
+    font-weight: 300;
+   
+}
+.received .timestamp {
+    text-align: right;
+    position : relative; 
+    bottom: 0;
+    right: 0;
+    color: #393939;
+  }
+.sent .timestamp{
+    text-align: left;
+    position : relative;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+  .message{
+    max-width: 100%;
+
+  }
+  
+}

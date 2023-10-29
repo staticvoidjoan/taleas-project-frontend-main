@@ -1,0 +1,47 @@
+/* sendMessage.css */
+
+.sendMessage-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 60px; /* Stick it to the bottom */
+  left: 0;
+  right: 0;
+}
+
+.sendMessage-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.sendMessage-button {
+  background-color: #6e46f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sendMessage-button:hover {
+  background-color: #6e46f5;
+}
+
+@media (min-width: 768px){
+  .sendMessage-form{
+    bottom: 0px;
+  }
+}
+
+

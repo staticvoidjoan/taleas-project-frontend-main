@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  margin: 20px;
+  /* text-align: center; */
+}
+
+.welcome-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.welcome-text {
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+.photo-welcome {
+  width: 250px;
+}
+.vision-text {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  margin-bottom: 25px;
+}
+
+.welcome-text img,
+.vision-text img,
+.offer-text img {
+  margin-top: 30px;
+}
+.contact-content {
+  text-align: center;
+}
+.photo-contact {
+  width: 250px;
+}
+.offer-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 901px) {
+  .welcome-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .photo-welcome {
+    max-width: 550px;
+    width: auto;
+    height: auto;
+    float: left;
+  }
+  .vision-content {
+    display: flex;
+    align-items: center;
+  }
+  .vision-text {
+    flex: 1;
+  }
+  .offer-content {
+    display: flex;
+    align-items: center;
+  }
+  .contact-content {
+    display: flex;
+    align-items: center;
+  }
+  .photo-contact {
+    width: 450px;
+  }
+
+  .btn-register-contact {
+    max-width: 300px;
+  }
+  .welcome-text,
+  .vision-text,
+  .offer-text,
+  .contact-content {
+    transition: transform 0.3s;
+    padding: 20px; /* Add this to create space around the content */
+  }
+
+  .welcome-text:hover,
+  .vision-text:hover,
+  .offer-text:hover,
+  contact-content:hover {
+    transform: scale(1.03);
+  }
+}
+@media screen and (max-width: 900px) {
+  .photo-welcome,
+  .photo-contact {
+    margin: 0 auto; /* Center the photos horizontally */
+    display: block; /* Ensure the photos do not expand the full width */
+  }
+}

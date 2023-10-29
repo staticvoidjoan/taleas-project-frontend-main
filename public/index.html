@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://kit.fontawesome.com/8501e0ea6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        // Try to register the service worker.
+        try {
+          const regServiceWorker = async () => {
+            let reg = await navigator.serviceWorker.register(
+              "/service-worker.js"
+            );
+            console.log("Service worker registered! 😎", reg);
+          };
+          regServiceWorker();
+        } catch (err) {
+          console.log("😥 Service worker registration failed: ", err);
+        }
+      }
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.ready.then(function (registration) {
+          return registration.sync.register("sync-put-requests");
+        });
+      }
+    </script>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="CareerCrush"
+      content="Where your dream job is just one swipe away"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6358708152874276"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>CareerCrush</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

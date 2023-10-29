@@ -1,0 +1,51 @@
+/* Chat.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
+  }
+  
+/* chat.css */
+
+.message-date {
+    text-align: center; /* Center the date */
+    background-color: #f0f0f0; /* Add a background color */
+    padding: 4px 0; /* Add some padding for better spacing */
+    font-size: 14px;
+    margin: 10px auto; /* Center horizontally with margin */
+    border-radius: 5px; /* Add some rounding to the corners */
+    width: fit-content; /* Make the width fit the content */
+  }
+  
+
+@media (min-width: 768px) {
+
+    .main{
+      margin-bottom: 100px;
+    }
+    .message-date {
+      font-size: 12px;
+    }
+
+    .chatApp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: 82vh;
+        margin-left: 50px;
+      margin-right: 50px;
+
+    }
+
+    .chat-container-messages{
+      width: 100%;
+    }
+ 
+  
+}

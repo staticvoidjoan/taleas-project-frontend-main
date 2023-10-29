@@ -1,0 +1,25 @@
+.chatNavBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chatNavBar-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 9px 9px 5px -4px rgba(0, 0, 0, 0.24);
+    object-fit: cover;
+}
+
+.chatNavBar-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+

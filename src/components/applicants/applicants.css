@@ -1,0 +1,41 @@
+.applicant-photo {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  border-radius: 32px;
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.applicants-container {
+  margin-bottom: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 78px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicants-desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.applicant-buttons {
+  display: flex;
+  gap: 16px;
+  margin-right: 26px;
+}
+
+.accept-btn,
+.decline-btn {
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.accept-btn:hover,
+.decline-btn:hover {
+  transform: scale(1.1);
+}

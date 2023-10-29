@@ -1,0 +1,17 @@
+/* Add this CSS to your stylesheets */
+.modal {
+  /* Position the modal in the center */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Other styles for the modal */
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%; /* You can adjust the width */
+  max-width: 400px; /* Set a maximum width if needed */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}

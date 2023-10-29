@@ -1,0 +1,31 @@
+/* ---------BACKROND COLOR--------- */
+
+.primary {
+  background-color: #6e46f5;
+  color: #ffffff;
+}
+.secondary {
+  background-color: #ffffff;
+  color: #222222;
+}
+.third {
+  background-color: #dddddd;
+  color: #222222;
+}
+.fourth {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+/* -----------Cursor -------- */
+
+.pointer {
+  cursor: pointer;
+}
+
+/* -----------------BORDER------------ */
+
+.noborder {
+  border: none;
+}
+

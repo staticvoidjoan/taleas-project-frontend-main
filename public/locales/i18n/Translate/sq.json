@@ -1,0 +1,148 @@
+{
+  "category1": "Te gjitha",
+
+  "skills": "Aftesite",
+  "experiences": "Eksperiencat",
+  "education": "Edukimi",
+  "certifications": "Certifikimet",
+  "links": "Linqe per projekte",
+  "languages": "Gjuhet",
+
+  
+  "addJob" : "Posto pune",
+  "myJobs": "Postimet e mia",
+  "jobDescription": "Pershkrimi i punes",
+  "postedOn": "Postuar ne: ",
+  "requirements": "Kerkesat",
+  "applicants": "Aplikuesit",
+  "deleteJob": "Fshi postimin",
+  "select": "Selekto nje kategori",
+  "loadingCategories": "Duke shfaqur kategorite...",
+  "position": "Pozicioni",
+  "description": "Pershkrimi...",
+  "addReq": "Shto kerkessa",
+  "add": "Shto",
+  "save": "Ruaj",
+
+  "messages": "Mesazhet",
+  "Message": "Mesazhi",
+  "Send": "Dergo",
+
+  "user-register": {
+    "header": "Regjistrohu",
+    "subEmployer": "Gjeni punonjës për kompaninë tuaj!",
+    "subEmployee": "Gjeni punën tuaj të ëndrrave!",
+    "fullname": "Emri Plotë",
+    "birthday": "Ditëlindja",
+    "password": "Fjalëkalimi",
+    "company": "Emri Kompanisë",
+    "industry": "Industria",
+    "address": "Adresa",
+    "login": "Kycu",
+    "register": "Regjistrohu",
+    "haveAcc": "A keni tashmë një llogari?"
+  },
+  "accept": "I pranoj",
+  "terms": "Kushtet & Termat",
+
+  "user-login": {
+    "header": "Connecting Dreams with Talent",
+    "subHead": "Find Your Dream Job, Find Your Employees!",
+    "password": "Fjalkalimi",
+    "forgot_password": "Keni harruar fjalekalimin?",
+
+    "login": "Kycu",
+    "login_error": "Kredencialet e hyrjes nuk janë të sakta, ose llogaria nuk është verifikuar.",
+    "click_here": "Kliko ketu",
+    "not_acc": "Nuk keni ende një llogari?  &nbsp",
+    "register": "Regjistrohu"
+  },
+
+  "user-forgot": {
+    "header": "Rivendosni fjalëkalimin tuaj",
+    "subHead": "Ke humbur fjalëkalimin? Mos u shqetëso, vendos një të ri",
+    "email": "Vendosni adresën tuaj të emailit ",
+    "send_email": "Degoni Email",
+    "enter_head": "Futni kodin dhe vendosni fjalëkalimin e ri",
+    "code": "Kodi",
+    "new_psw": "Vendosni fjalëkalimin e ri",
+    "confirm_psw": "Konfirmo fjalëkalimin ",
+    "change_psw": "Ndrysho fjalëkalimin"
+  },
+
+  "user-confirm": {
+    "header": "Konfirmoni Llogarine",
+    "enter_code": "Vendosni kodin e dërguar në emailin tuaj",
+    "confirm_btn": "Konfirmo"
+  },
+
+  "footer-home": {
+    "start": "Fillo tani ",
+    "start-register": "Regjistrohu",
+    "start-login": "Kycu",
+    "start-or": "ose"
+  },
+
+  "offline": "Nuk je i lidhur me internet",
+  "noPosts": "Nuk ka me postime",
+  "support": "Kontakto ne: careercrushapp@gmail.com",
+  "formSent": "Kerkesa juaj u dergua",
+  "getInTouch": "Kontakto me ne",
+  "formMessage": "Ne do te na pelqente te afroheshim. A deshiron te kontaktosh? Ploteso formen me poshte, dhe ne do t'ju pergjigjemi sa me shpejt.",
+  "fillFields": "Te lutem mbush te gjitha fushat",
+  "change": "Deshiron t'i ruash ndryshimet?",
+  "inappropriate": "Teksti juaj ka permbajtje te papranueshme!",
+
+  "resend": {
+    "enter_code": "Fusni kodin e konfirmimit",
+    "type_code": "Kodi",
+    "confirm_btn": "Konfirmo",
+    "enter_email": "Fusni emailin tuaj",
+    "send_email": "Dërgo email",
+    "confirm_acc": "Konfirmo llogarinë tënde",
+    "lost_msg": "Ke humbur kodin? Mos u shqetëso, do të dërgojmë një të ri."
+  },
+  "privacy": {
+    "terms_head": "Kushtet e shërbimit",
+    "terms1": "1. Pranimi i kushteve",
+    "terms2": "2. Përshkrimi i platformës",
+    "terms3": "3. Regjistrimi dhe Llogaritë e Përdoruesve",
+    "terms4": "4. Përmbajtja e përdoruesit",
+    "terms5": "5. Pëlqimet dhe ndërveprimet",
+    "t1": "Mirë se vini në aplikacionin CareerCrush. Duke hyrë ose duke përdorur Platformën,ju pranoni të pajtoheni dhe të jeni të detyruar nga këto Kushte të Shërbimit.Nëse nuk jeni dakord me këto Kushte, ju lutemi mos e përdorni Platforma. Këto Kushte përbëjnë një marrëveshje ligjërisht të detyrueshme mes jush dhe aplikacionit CareerCrush.",
+    "t2": "Platforma është një treg në internet që lidh kompanitë ('Punëdhënësit') dhe punëtorët ('Përdoruesit'). Punëdhënësit mund të postojnë punë listimet, dhe Përdoruesit mund t'i shikojnë këto listime, të shprehin interes përmes 'pëlqimeve' dhe komunikoni me Punëdhënësit përmes privatit chat. Këto Kushte rregullojnë përdorimin tuaj të Platformës si një Punëdhënësi dhe Përdoruesi.",
+    "t3": " Për të përdorur disa veçori të Platformës, duhet të regjistroheni dhe të krijoni një llogari. Ju pranoni të jepni informacion të saktë, aktual dhe të plotë gjatë procesit të regjistrimit dhe të përditësoni informacione të tilla për ta mbajtur atë të saktë, aktual dhe të plotë .",
+    "t4": "Ju jeni përgjegjës vetëm për çdo përmbajtje që postoni në Platformë, duke përfshirë listat e punës, informacionin e profilit, mesazhet dhe 'pëlqimet'. Ju pranoni të mos postoni asnjë përmbajtje që shkel ligjet në fuqi ose udhëzimet tona të përmbajtjes, të cilat mund të të sigurohet veçmas.",
+    "t5": " Përdoruesit mund të 'pëlqejnë' listat e vendeve të punës të postuara nga Punëdhënësit. Punëdhënësit mund të shohin se kujt i ka pëlqyer listat e tyre të punës dhe mund të zgjedhin të ndërveprojnë me Përdoruesit përmes Platformës. Ndërveprimet e ndërsjella nuk garantojnë punësim.",
+    "privacy_head": "Kushtet e privatësisë",
+    "privacy1": "1. Informacion që ne mbledhim",
+    "privacy2": "2. Ndarja e informacionit tuaj",
+    "privacy3": "3. Siguria",
+    "privacy4": "Duke përdorur platformën, ju pranoni se keni lexuar, kuptuar dhe pranuar këto Kushte të Shërbimit dhe Politikën e Privatësisë.",
+    "p1": " Ne mbledhim informacionin që jepni kur regjistroheni për një llogari, postoni përmbajtje, ndërveproni me përdorues të tjerë ose kontaktoni mbështetjen e klientit. Kjo mund të përfshijë informacione personale si emri juaj, adresa e emailit dhe informacionet e profilit.",
+    "p2": "Ne mund t'i ndajmë informacionet tuaja me përdorues të tjerë kur ndërveproni me ta në Platformë. Ne gjithashtu mund t'i ndajmë informacionin tuaj me ofruesit e shërbimeve të palëve të treta që na ndihmojnë në ofrimin e veçorive të Platformës.",
+    "p3": " Ne marrim masa të arsyeshme për të mbrojtur informacionin tuaj, por nuk mund të garantojmë sigurinë e tij absolute. Ju jeni përgjegjës për mbajtjen konfidenciale të kredencialeve tuaja të hyrjes."
+  },
+  "about": {
+    "header": "Mirë se vini në Career",
+    "header2": "Crush",
+    "welcome_text": "Në CareerCrush, ne kemi krijuar një platformë që lidh kompanitë dhe punëtorët, duke thjeshtuar procesin e kërkimit të punës dhe punësimit. Misioni ynë është të bëjmë më të lehtë për punëdhënësit të gjejnë kandidatët e duhur dhe për punëkërkuesit të zbulojnë mundësi emocionuese punësimi.",
+    "vision_head": "Visioni yne",
+    "vision_text": " Ne besojmë se bota e punës duhet të jetë më transparente, efikase dhe më e përshtatshme për përdoruesit. Kjo është arsyeja pse ne kemi ndërtuar CareerCrush për të ofruar një përvojë të qetë si për kompanitë ashtu edhe për punëtorët.",
+    "offer_head": "Cfare ne ofrojme",
+    "offer_text": "Platforma jonë i lejon punëdhënësit të postojnë lista pune, të ndërveprojnë me kandidatët e mundshëm dhe të thjeshtojnë procesin e punësimit. Ju mund të shihni se kush është i interesuar për postimet tuaja të punës dhe të angazhoheni me ta përmes funksionit tonë të bisedës private.",
+    "offer_text2": "Punëkërkuesit mund të eksplorojnë një gamë të gjerë të listave të punës, të shprehin interesin e tyre përmes pëlqimeve dhe të lidhen me punëdhënësit drejtpërdrejt përmes bisedës private. Ne jemi këtu për t'ju ndihmuar të gjeni përputhjen e përsosur të punës.",
+    "contact_head": "A JENI GATI PËR HAPIN TJETËR?",
+    "contact_text": "Na kontaktoni për t'ju udhëzuar.",
+    "contact_btn": "Na kontaktoni"
+  },
+  "menu": {
+    "home": "Career Crush",
+    "about": "Rreth nesh",
+    "contact": "Na kontaktoni",
+    "terms": "Kushtet e perdorimit",
+    "reg_btn":"Regjistrohu",
+    "log_btn":"Kycu"
+  },
+  "backtoLoginin": "Kthehu ne Login"
+}

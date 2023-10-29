@@ -1,0 +1,77 @@
+.chatContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px; /* Added padding to the left */
+  border: solid 1px #e6e6e6;
+  /* height: 76px; */
+}
+
+.userMessagesTitle {
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+.company-photo-chat {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: cover; /* Ensure the image covers the entire circle */
+  object-fit: cover; 
+  background-position: center;
+}
+
+.new .newMessageCircle {
+  background-color: red;
+  display: block;
+  height: 10px;
+  position: absolute;
+  right: 19px;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 10px;
+  border-radius: 50%;
+}
+
+/* .new .newMessageCircle {
+  display: block; 
+} */
+
+.s {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+@media (min-width: 768px){
+  .chatContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+  }
+  .newMessageCircle{
+    right: 8px;
+  }
+  .company-photo-chat{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+    background-position-x: center;
+    width: 50px;
+  }
+}

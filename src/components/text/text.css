@@ -1,0 +1,108 @@
+/* --------------------------------Font Family--------------------- */
+
+.open-sans {
+  font-family: Open Sans;
+}
+
+/* --------------------------------Font Weight--------------------- */
+
+.bold {
+  font-weight: bold;
+}
+.regular {
+  font-weight: normal;
+}
+.medium800 {
+  font-weight: 800;
+}
+.medium700 {
+  font-weight: 700;
+}
+.medium {
+  font-weight: 600;
+}
+.thin {
+  font-weight: 400;
+}
+
+/* --------------------------------Font Size--------------------- */
+
+.s12{
+  font-size: 12px;
+}
+.s14 {
+  font-size: 14px;
+}
+.s16 {
+  font-size: 16px;
+}
+.s18 {
+  font-size: 18px;
+}
+.s20 {
+  font-size: 20px;
+}
+.s21 {
+  font-size: 22px;
+}
+.s22 {
+  font-size: 22px;
+}
+.s24 {
+  font-size: 24px;
+}
+.s32 {
+  font-size: 32px;
+}
+
+/* --------------------------------Font Line Height--------------------- */
+
+.l13 {
+  line-height: 13px;
+}
+.l19 {
+  line-height: 19px;
+}
+.l20 {
+  line-height: 20px;
+}
+.l22 {
+  line-height: 22px;
+}
+.l24 {
+  line-height: 24px;
+}
+.l27 {
+  line-height: 27px;
+}
+.l28 {
+  line-height: 28px;
+}
+.l38 {
+  line-height: 38px;
+}
+.l44 {
+  line-height: 44px;
+}
+.lnormal {
+  line-height: normal;
+}
+/* --------------------------------Font Color--------------------- */
+
+.white {
+  color: #ffffff;
+}
+
+.purple {
+  color: #6e46f5;
+}
+
+.black {
+  color: #222222;
+}
+.gray {
+  color: #999999;
+}
+.lightgray {
+  color: #666666;
+}

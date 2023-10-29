@@ -1,0 +1,153 @@
+{
+    "category1": "All",
+
+    "skills": "Skills",
+    "experiences": "Experiences",
+    "education": "Education",
+    "certifications": "Certifications",
+    "links": "Links to projects",
+    "languages": "Languages",
+
+    "addJob" : "Add job",
+    "myJobs": "My Jobs",
+    "jobDescription": "Job Description",
+    "postedOn" : "Posted On: ",
+    "requirements": "Requirements",
+    "applicants":"Applicants",
+    "deleteJob":"Delete job",
+    "select": "Select a category",
+    "loadingCategories": "Loading Categories...",
+    "position": "Position",
+    "description": "Description...",
+    "addReq": "Add Requirements",
+    "add": "Add",
+    "save": "Save",
+
+    "messages": "Messages",
+    
+    "Message": "Message",
+    "Send": "Send",
+
+    "validMessage": "Please enter a valid message!",
+    "Close": "Mbyll",
+
+    "user-register": {
+        "header": "Register",
+        "subEmployer": "Find employees for your company!",
+        "subEmployee": "Find your dream job!",
+        "fullname": "Full Name",
+        "birthday": "Birthday",
+        "password": "Password",
+        "company": "Company Name",
+        "industry": "Industry",
+        "address": "Address",
+        "register": "Register",
+        "login": "Login",
+        "haveAcc": "Already have an account?"
+      },
+      "accept": "I accept",
+      "terms": "Terms & Condtitions",
+
+      "user-login": {
+        "header": "Connecting Dreams with Talent",
+        "subHead": "Find Your Dream Job, Find Your Employees!",
+        "password": "Password",
+        "forgot_password": "Forgot Password?",
+        "login": "Login",
+        "login_error": "Log in credentials are not correct, or the account is not verified.",
+        "click_here": "Kliko ketu",
+        "not_acc": "Don't have an account yet?  &nbsp",
+        "register": "Register"
+      },
+
+      "user-forgot": {
+        "header": "Reset your password",
+        "subHead": "Lost your password? No worries set a new one",
+        "email": "Enter your email address",
+        "send_email": "Send Email",
+        "enter_head": "Enter code and set new password",
+        "code": "Code",
+        "new_psw": "New password",
+        "confirm_psw": "Confirm password ",
+        "change_psw": "Change password"
+      },
+
+      "user-confirm": {
+        "header": "Confirm Account",
+        "enter_code": "Enter the code sent to your email",
+        "confirm_btn": "Confirm"
+      },
+      "footer-home": {
+        "start": "Start Now",
+        "start-register": "Register",
+        "start-login": "Login",
+        "start-or": "or"
+      },
+
+      "offline":"You are offline",
+      "noPosts":"No more posts",
+      "support":"Support at: careercrushapp@gmail.com",
+      "formSent": "Your form has been send",
+      "getInTouch": "Get in touch",
+      "formMessage":"We would like to stay in touch. Want to connect yet ? Reach out through the form below , and we will get back to you within a day",
+      "change": "Do you want to save the changes?",
+      "fillFields": "Please fill out all fields",
+      "inappropriate":"Your content contains inappropriate language.!",
+
+      "resend": {
+        "enter_code": "Enter the confirmation code",
+        "type_code": "Code",
+        "confirm_btn": "Confirm",
+        "enter_email": "Enter your email",
+        "send_email": "Send Email",
+        "confirm_acc": "Confirm your account",
+        "lost_msg": "Lost your code? No worries we will send a new one."
+      },
+
+      "privacy": {
+        "terms_head": "Terms of Service",
+        "terms1": "1. Acceptance of Terms",
+        "terms2": "2. Description of the Platform",
+        "terms3": "3. Registration and User Accounts",
+        "terms4": "4. User Content",
+        "terms5": "5. Likes and Interactions",
+        "t1": "  Welcome to CareerCrush App. By accessing or using the Platform,you agree to comply with and be bound by these Terms of Service .If you do not agree to these Terms, please do not use the Platform. These Terms constitute a legally binding agreement between you and CareerCrush App.",
+        "t2": "The Platform is an online marketplace that connects companies('Employers') and workers ('Users'). Employers can post job listings, and Users can view these listings, express interest through 'likes,' and communicate with Employers through private chat. These Terms govern your use of the Platform as both an Employer and a User.",
+        "t3": " To use certain features of the Platform, you must register and create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.",
+        "t4": "You are solely responsible for any content you post on the Platform, including job listings, profile information, messages , and 'likes'. You agree not to post any content that violates applicable laws or our Content Guidelines, which may be provided separately.",
+        "t5": " Users may 'like' job listings posted by Employers. Employers can see who has liked their job listings and may choose to interact with Users through the Platform. Mutual interactions do not guarantee employment.",
+        "privacy_head": "Terms of Privacy",
+        "privacy1": "1. Information We Collect",
+        "privacy2": "2. Sharing Your Information",
+        "privacy3": "3. Security",
+        "privacy4": "By using the Platform, you acknowledge that you have read, understood,and agreed to these Terms of Service and Privacy Policy.",
+        "p1": " We collect information you provide when you register for an account, post content, interact with other users, or contact customer support. This may include personal information such as your name, email address, and profile information.",
+        "p2": "We may share your information with other users when you interact with them on the Platform. We may also share your information with third-party service providers who assist us in providing the Platform's features.",
+        "p3": " We take reasonable measures to protect your information but cannot guarantee its absolute security. You are responsible for keeping  your login credentials confidential."
+      },
+
+      "about": {
+        "header": "Welcome to Career",
+        "header2": "Crush",
+        "welcome_text": "At CareerCrush, we've created a platform that connects companies and workers, simplifying the job searching and hiring process. Our mission is to make it easier for employers to find the right candidates and for job seekers to discover exciting employment opportunities.",
+        "vision_head": "Our Vision",
+        "vision_text": "We believe that the world of work should be more transparent, efficient, and user-friendly. That's why we've built CareerCrush to provide a seamless experience for both companies and workers.",
+        "offer_head": "What We Offer",
+        "offer_text": "Our platform allows employers to post job listings, interact with potential candidates, and streamline the hiring process. You can see who's interested in your job postings and engage with them through our private chat feature.",
+        "offer_text2": "Job seekers can explore a wide range of job listings, express their interest through likes and connect with employers directly via private chat. We're here to help you find the perfect job match.",
+        "contact_head": "ARE YOU READY FOR THE NEXT STEP ?",
+        "contact_text": "Contact us to guide you.",
+        "contact_btn": "Contact us"
+      },
+
+      "menu": {
+        "home": "Home",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "terms": "Terms and Conditions",
+        "reg_btn": "Register",
+        "log_btn": "Login"
+      },
+
+      "backtoLoginin": "Back to Login"
+}

@@ -1,0 +1,116 @@
+.post-job-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 25px;
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-job-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-job-bar-nav {
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-job-bar-div {
+  width: calc(100% - 40px);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 2px solid #dedede;
+}
+
+.post-job-body {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+
+.job-btn {
+    width: calc(100% - 40px);
+  flex-shrink: 0;
+  background-color: #6e46f5;
+  border: none;
+  color: #fff;
+  height: 48px;
+  margin-top: 32px;
+}
+
+
+/* Add this CSS to style the "Add" button */
+.add-button {
+  background-color: #6e46f5; /* Purple color */
+  color: #fff; /* White text color */
+  border: none;
+  width: 70px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+/* Style the requirement list */
+.requirements-list {
+  margin-top: 10px;
+  width: 80%;
+  overflow: hidden;
+
+}
+
+.requirement-item {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333; /* Text color for requirements */
+}
+
+
+.postjob-input {
+  
+  margin: 0px;
+  padding: 0px;
+  width: calc(100% - 12px);
+  height: 100%;
+  border: none;
+}
+
+.postjob-input:focus {
+  outline: none;
+}
+
+
+.requirement-input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.remove-req-button{
+  background-color: transparent;
+  border: 2px solid #B6013C;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 9px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

@@ -1,0 +1,30 @@
+.offline-fallback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .offline-logo{
+    width: 200px;
+  }
+  
+  .description{
+    top: -30px;
+    position: relative;
+  }
+
+  .reload-button{
+  background-color: #6e46f5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 10px;
+  width: 128px;
+  height: 48px;
+  position: relative;
+  }

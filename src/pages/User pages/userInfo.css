@@ -1,0 +1,243 @@
+.user-photo{
+    width: calc(100% - 40px);
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    height: 231px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
+}
+.userInfo-container{
+    height: 100%;
+}
+
+.gradient-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #222 0.07%, rgba(34, 34, 34, 0.65) 52.9%, rgba(34, 34, 34, 0.00) 99.93%);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.user-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 16px;
+}
+.position-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #222;
+    background: rgba(244, 244, 244, 0.30);
+    margin-top: 12px;
+}
+.email-adress{
+    margin-left: 8px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.skills-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    
+}
+.skill-tab-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 8px;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #222;
+    background: rgba(244, 244, 244, 0.30);
+    margin-top: 12px;
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.exp-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.exp-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4px;
+    gap: 15px;
+}
+
+.exp-pic{
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background-size: cover;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.project-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.post-alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    margin-top: 100px;
+}
+
+.signout{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.fullname{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.lang{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lang-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 8px;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #222;
+    background: rgba(244, 244, 244, 0.30);
+    margin-top: 12px;
+}
+
+.lang-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div{
+    width: 20px;
+}
+
+.link-tab{
+    text-decoration: none;
+}
+.edit-profile-web{
+    display: none;
+}
+.edit-profile-web-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #222222;
+    padding: 8px;
+    
+}
+
+@media (min-width: 768px){
+    .user-photo{
+        width: calc(100% - 120px);;
+        height: 300px;
+        background-position-x: center;
+    }
+    .userInfo-container{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    padding: 40px;
+    width: calc(100% - 280px);
+    }
+    .edit-profile{
+        display: none;
+    }
+    .edit-profile-web{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+}
